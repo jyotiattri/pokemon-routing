@@ -1,19 +1,25 @@
 <template>
   <div class="container">
     <div class="pokemon">
-      <PokemonCard />
+      <router-view></router-view>
+      <div class="pokemon-links has-text-centered">
+        <router-link to="/charizard">
+        /charizard
+        </router-link>
+        <router-link to="/blastoise">
+        /blastoise
+        </router-link>
+        <router-link to="/venusaur">
+        /venusaur
+        </router-link>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import CharizardCard from "./components/CharizardCard";
-
 export default {
   name: "App",
-  components: {
-    PokemonCard: CharizardCard
-  }
 };
 </script>
 
