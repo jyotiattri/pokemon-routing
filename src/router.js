@@ -14,3 +14,8 @@ const routes = [
   { path: "/venusaur", component: VenusaurCard },
   { path: "*", component: NotFound }
 ];
+
+export const router = new VueRouter({
+  mode: 'history',
+  routes
+});

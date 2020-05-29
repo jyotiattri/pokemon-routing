@@ -23,6 +23,5 @@ export default {
 };
 </script>
 
-<style lang="css" src="./styles.css">
-/* Styles from stylesheet */
+<style>
 </style>

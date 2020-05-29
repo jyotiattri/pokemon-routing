@@ -2,7 +2,7 @@
   <div class="card card--charizard has-text-weight-bold has-text-white">
     <div class="card-image">
       <div class="card-image-container">
-        <img src="../../static/charizard.png"/>
+        <img src="../assets/charizard.png"/>
       </div>
     </div>
     <div class="card-content has-text-centered">
