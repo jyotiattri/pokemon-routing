@@ -2,7 +2,7 @@
   <div class="card card--venusaur has-text-weight-bold has-text-white">
     <div class="card-image">
       <div class="card-image-container">
-        <img src="../assets/venusaur.png" />
+        <img src="../../static/venusaur.png" />
       </div>
     </div>
     <div class="card-content has-text-centered">
