@@ -2,7 +2,7 @@
   <div class="card card--blastoise has-text-weight-bold has-text-white">
     <div class="card-image">
       <div class="card-image-container">
-        <img src="../../static/blastoise.png" />
+        <img :src="viaJs" />
       </div>
     </div>
     <div class="card-content has-text-centered">
@@ -30,6 +30,11 @@
 
 <script>
 export default {
-  name: "BlastoiseCard"
+  name: "BlastoiseCard",
+  data() {
+    return {
+     viaJs: require("../assets/blastoise.png"),
+      }
+    }
 };
 </script>
